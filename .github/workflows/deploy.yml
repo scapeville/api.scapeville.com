@@ -1,0 +1,15 @@
+name: Build and deploy to GitHub Pages
+
+on:
+#   push:
+#     branches:
+#       - main
+#     paths-ignore:
+#       - '.github/**'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "okay"
